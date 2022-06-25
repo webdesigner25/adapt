@@ -1,0 +1,215 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.logo {
+  width: 70px;
+  height: 60px;
+  display: block;
+  margin: 80px auto;
+}
+.link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #005BBB;
+  text-decoration: none;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+  width: 403px;
+  height: 24px;
+  margin: 0 auto 80px auto;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 260px;
+}
+.gallery-item1 {
+  background: url(../image1.png) center / auto 200px no-repeat;
+  width: 390px;
+}
+
+.gallery-item2 {
+  background: url(../image2.png) center / auto 200px no-repeat;
+}
+
+.gallery-item3 {
+  background: url(../image3.png) center / auto 200px no-repeat;
+}
+.ua_flag_blue {
+  width: 10px;
+  height: 100px;
+  background: #005BBB;
+  margin-top: -203px;
+  margin-left: -10px;
+}
+.ua_flag_yellow {
+  width: 10px;
+  height: 100px;
+  background: #FFD500;
+  margin-left: -10px;
+}
+.description {
+font-family: 'Montserrat';
+font-size: 28px;
+line-height: 39.2px;
+color: #005BBB;
+width: 1024px;
+height: 266px;
+display: flex;
+justify-content: center;
+margin: 0 auto 80px auto;
+}
+.line1 {
+  width: 1024px;
+  border: 1px solid #005BBB;
+  margin: 0 auto 16px auto;
+}
+.heading, .heading2 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  line-height: 49px;
+  font-weight: 900;
+  color: #005BBB;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin: 0 auto 16px auto;
+}
+.line2 {
+  width: 500px;
+  border: 1px solid #005BBB;
+  margin: 0 auto 40px auto;
+}
+.dates {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+
+}
+.date1, .date2 {
+  width: 497px;
+  height: 394px;
+  background: #005BBB;
+  padding: 40px;
+}
+.text {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.date {
+  font-family: 'Montserrat';
+  font-size: 48px;
+  line-height: 67.2px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.yellow_rectangle {
+  width: 10px;
+  height: 394px;
+  background: #FFD500;
+}
+.line3 {
+  width: 1024px;
+  border: 1px solid #005BBB;
+  margin: 80px auto 16px auto;
+}
+.rectangle {
+  width: 1024px;
+  height: 120px;
+  border: 1px solid #005BBB;
+  margin: 40px auto 160px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.text2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #005BBB;
+  opacity: 0.5;
+  margin-left: 30px;
+}
+.button {
+  padding: 13px 56px;
+  width: 199px;
+  height: 60px;
+  background: #005BBB;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin-right: 30px;
+}
+
+  
+  
